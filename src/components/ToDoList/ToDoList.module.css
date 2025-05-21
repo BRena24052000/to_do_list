@@ -1,0 +1,32 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .wrapper {
+    position: relative;
+    background-color: #eaf5fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .removeBtn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 8px 16px;
+    background-color: #a76b68;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .removeBtn:hover {
+    background-color: #c09112;
+  }

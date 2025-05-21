@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    background-color: #eaf5fa;
+    text-align: left;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.contentComplited {
+    background-color: rgb(69, 184, 119);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+.contentComplited button {
+    background-color: rgb(69, 152, 124);
+    border-color: rgb(70, 158, 48);
+}
+
+.inputEditable {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-family: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
